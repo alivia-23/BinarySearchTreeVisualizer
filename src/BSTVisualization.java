@@ -30,7 +30,7 @@ public class BSTVisualization extends JFrame implements ActionListener, KeyListe
 			data.setFont(new Font("Arial", Font.BOLD, 20));
 			data.setBorder(BorderFactory.createLineBorder(Color.black));
 			data.setOpaque(true);
-			data.setBackground(Color.green);
+			data.setBackground(Color.yellow);
 			p = null;
 		}
 	}
@@ -197,7 +197,7 @@ public class BSTVisualization extends JFrame implements ActionListener, KeyListe
 		add(treePanel, BorderLayout.CENTER);
 		add(infoPanel, BorderLayout.SOUTH);
 
-		setTitle("Binary Search Tree Visualization"); // Title Frame
+		setTitle("Binary Search Tree Visualizer"); // Title Frame
 		setResizable(false);
 		setLocationRelativeTo(null);
 		setVisible(true);

@@ -1,18 +1,13 @@
-## Getting Started
+## Binary Search Tree Visualization Application
+ # Key Feature Implemented
+ * **Add** and **Delete** operation in a **BST**
+ * Calculates **PreOrder**, **InOrder**, **PostOrder** results
+ * Calculates **Height** of the **BST**
+ 
+ # Key Constraints
+ * The **left subtree** of a **root node** should be always lesser than the **root node**
+ * The **right subtree** of a **root node** should be always greater than the **root node**
+ * The **left** and **right** subtree each must satisfy the property of **binary search tree**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ https://www.loom.com/share/f61249ec45ef48eab77dc948e468d63e?sid=acd9a8cd-242f-4db5-9e81-09071b258abe
